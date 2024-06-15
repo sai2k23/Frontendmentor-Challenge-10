@@ -1,0 +1,37 @@
+body {
+    background-color: #edf2f8;
+}
+.container {
+    display: grid;
+    grid-template-columns: 0.6fr 0.3fr 250px;
+    grid-template-rows: 350px 250px;
+    grid-gap: 30px;
+}
+.card-1 {
+      background-color: #733fc8;
+      grid-row: 1/2;
+      margin-top: 100px;
+      margin-left: 150px;
+      border-radius: 10px;
+}
+.card-2 {
+    background-color: #49556b;
+    grid-row: 1/2;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.card-3 { 
+    background-color: white;
+    grid-row: 1/3;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.card-4 {
+    background-color: #18202d;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+.card-5 {
+    background-color: white;
+    border-radius: 10px;
+ }
